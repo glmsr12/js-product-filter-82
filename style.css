@@ -1,3 +1,7 @@
+body {
+  background-color: antiquewhite;
+}
+
 /* Style for the filter container */
 #filter-options {
   margin-bottom: 20px;
