@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Search Filter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="product-list">
+      <div class="product-item" data-categories="cocktail">
+        <img src="product1.JPG" alt="1" />
+        <img src="product3.JPG" alt="3" />
+        <img src="product5.JPG" alt="5" />
+        <img src="product6.JPG" alt="6" />
+      </div>
+
+      <div class="product-item" data-categories="casual">
+        <img src="product2.JPG" alt="2" />
+
+        <img src="product4.JPG" alt="4" />
+
+        <img src="product7.JPG" alt="7" />
+        <img src="product8.JPG" alt="8" />
+      </div>
+    </div>
+
+    <div id="filter-options">
+      <label>
+        <input type="checkbox" class="filter-checkbox" value="cocktail" />
+        Cocktail Dresses
+      </label>
+      <label>
+        <input type="checkbox" class="filter-checkbox" value="casual" />
+        Casual Dresses
+      </label>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
