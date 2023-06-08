@@ -2,17 +2,14 @@ body {
   background-color: antiquewhite;
 }
 
-/* Style for the filter container */
 #filter-options {
   margin-bottom: 20px;
 }
 
-/* Style for the filter checkboxes */
 .filter-checkbox {
   margin-right: 10px;
 }
 
-/* Style for the product items */
 .product-item {
   margin-bottom: 10px;
   padding: 10px;
